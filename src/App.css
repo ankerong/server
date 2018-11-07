@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html,body,#root,.big,.root_box{
+  width: 100%;
+  height: 100%;
+}
+header{
+  width:100%;
+  height:50px;
+}
+header>.box{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background:#2b5295;
+  line-height: 50px;
+  color: #fff;
+  font-size: 14px;
+}
+.box h1{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.box .middlist{
+  flex: 1;
+  height: 100%;
+  display: flex;
+}
+.middlist li{
+  font-size: 16px;
+  padding: 0 15px;
+  text-align: center;
+  color: #fff;
+}
+.box .user,.info{
+  width: 10%;
+  text-align: center;
+}
+.ant-badge-count{
+    margin-bottom: 20px;
+}
+.active{
+  background: rgba(0, 0, 0, 0.5);
+}
+section{
+  width: 100%;
+  height: 100%;
+  background: rgb(247, 244, 244);
+  
+}
+.list_big{
+  width: 100%;
+  height: 100%;
+}
+.list_big>ul{
+  margin-bottom: 0;
+}
+.home{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.home_left{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.left_name{
+  padding-top: 20px;
+}
+.home_right{
+  flex: 1;
+}
+.list_box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.list_left{
+  width: 15%;
+  border-right: solid 1px #ccc;
+  background: #c5cfea;
+  padding-top: 20px;
+}
+.list_left li{
+  color: #1e3c70;
+  padding-left: 20px;
+  line-height: 50px;
+}
+.list_right{
+  flex: 1;
+}
+.actived{
+  background: #9fbdf0;
+}
+.login_box{
+  width: 100%;
+  height: 100%;
+  background: #9fbdf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 60px 0;
+}
+.login h1{
+  text-align: center;
+  padding: 5px 0;
+}
+.login input,.login button{
+  width: 90%;
+  height: 40px;
+  margin: 20px 5% 0 5%;
+  border: solid 1px #ccc;
+  outline: none;
+}
+.login input{
+  padding-left: 10px;
+}
